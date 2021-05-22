@@ -1,0 +1,65 @@
+.header {
+    background-image: url("../../assets/bg/header-bg.png");
+    background-size: cover;
+    height: 671px;
+    // temporarly
+    color: #fff;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        height: 671px;
+    }
+
+    &__navbar {
+        justify-content: space-between;
+        white-space: nowrap;
+        align-items: center;
+        &__logo__name {
+            padding-left: 11px;
+            font-size:30px
+            // color, font-family
+        }
+        &__nav {
+            display: flex;
+            justify-content: space-between;
+
+            &__link {
+                white-space: nowrap;
+                font-size:13px;
+                // color, font-family
+                &__active {
+                    color: #fff;
+                    // color, font-family
+                }
+            }
+        }
+    }
+
+    &__main {
+        margin: auto;
+        &__title {
+            font-size: 32px;
+            letter-spacing: 0px;
+            font-weight: 900;
+            text-align: center;
+            // color, font-family
+        }
+        &__separator {
+            position: relative;
+            left: 50%;
+            transform: translate(-50%, 0);
+
+            margin: 20px 0 30px;
+        }
+        &__text {
+            font-size: 14px;
+            letter-spacing: 1px;
+            line-height: 24px;
+            font-weight: 300;
+            text-align: center;
+            margin-bottom: 50px;
+            // color, font-family
+        }
+    }
+}
