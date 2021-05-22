@@ -15,6 +15,7 @@
         justify-content: space-between;
         white-space: nowrap;
         align-items: center;
+        margin-top: 15px;
         &__logo__name {
             padding-left: 11px;
             font-size:30px
@@ -43,6 +44,7 @@
             letter-spacing: 0px;
             font-weight: 900;
             text-align: center;
+            margin: 0 auto;
             // color, font-family
         }
         &__separator {
@@ -58,8 +60,13 @@
             line-height: 24px;
             font-weight: 300;
             text-align: center;
-            margin-bottom: 50px;
+            margin: 0 auto 50px;
             // color, font-family
+        }
+        &__btn {
+            position: relative;
+            left: 50%;
+            transform: translate(-50%, 0);
         }
     }
 }
