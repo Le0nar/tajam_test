@@ -27,7 +27,7 @@
       text-align: center;
       height: 250px;
       min-width: 313px;
-      border-right: 2px solid #40404d;
+      border-right: 2px solid #B3B3B6;
       &:nth-child(3),
       &:last-child {
         border-right: none;
@@ -35,7 +35,7 @@
       &:nth-child(1),
       &:nth-child(2),
       &:nth-child(3) {
-        border-bottom: 2px solid #40404d;
+        border-bottom: 2px solid #B3B3B6;
       }
 
       &__info {
@@ -51,10 +51,10 @@
     width: 50%;
     border: none;
     &:nth-child(odd) {
-      border-right: 2px solid #40404d;
+      border-right: 2px solid #B3B3B6;
     }
     &:nth-child(4) {
-      border-bottom: 2px solid #40404d;
+      border-bottom: 2px solid #B3B3B6;
     }
   }
 }
@@ -63,7 +63,7 @@
     width: 100%;
     &:not(:last-child) {
         border-right: none;
-        border-bottom: 2px solid #40404d;
+        border-bottom: 2px solid #B3B3B6;
     }
   }
 }

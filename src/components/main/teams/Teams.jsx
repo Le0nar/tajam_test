@@ -28,5 +28,3 @@ const Teams = () => {
 }
 
 export default Teams;
-
-{/* < Employee /> */}
