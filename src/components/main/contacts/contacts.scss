@@ -1,0 +1,38 @@
+.contacts {
+    &__title {
+        text-align: center;
+        font-size: 22px;
+        letter-spacing: 1px;
+        font-weight: 700;
+        margin: 71px 0px 33px;
+        // color,ff
+    }
+    &__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &__input {
+            margin-bottom: 20px;
+            width: 50%;
+            height: 46px;
+            padding: 6px;
+            font-size: 14px;
+            letter-spacing: 1px;
+            font-weight: 300;
+            // color,ff
+        }
+        &__text-area {
+            width: 50%;
+            padding: 6px;
+            height: 201px;
+            resize: none;
+            font-size: 14px;
+            letter-spacing: 1px;
+            font-weight: 300;
+            // color,ff
+        }
+        &__btn {
+            margin: 20px 0px 70px;
+        }
+    }
+}

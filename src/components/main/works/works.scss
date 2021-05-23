@@ -1,0 +1,35 @@
+.works {
+    &__title {
+        display: flex;
+        justify-content: space-between;
+        margin: 71px auto;
+        &__left {
+            font-size: 22px;
+            letter-spacing: 1px;
+            font-weight: 700;
+            // color, ff
+        }
+        &__right {
+            font-size: 14px;
+            letter-spacing: 1px;
+            font-weight: 300;
+            // color, ff
+            &__value {
+                padding-right: 10px;
+            }
+        }
+    }
+    &__examples {
+        text-align: center;
+        img {
+            cursor: pointer;
+        }
+    }
+
+    &__btn {
+        margin: 68px 0px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+}

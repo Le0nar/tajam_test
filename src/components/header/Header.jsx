@@ -8,10 +8,10 @@ const Header = () => {
     <header className="header">
       <div className="header__container container">
         <div className="row header__navbar">
-          <div className="col-md-2 header__navbar__logo">
+          <a href="#home" className="col-md-2 header__navbar__logo">
             <img src={logo} alt="logo" />
             <span className="header__navbar__logo__name">tajam</span>
-          </div>
+          </a>
           <ul className="col-md-8 header__navbar__nav">
             <li>
               <a className="header__navbar__nav__link header__navbar__nav__link__active" href="#home">
@@ -51,11 +51,11 @@ const Header = () => {
           </ul>
         </div>
         <div className="header__main">
-          <h1 className="header__main__title">
+          <h1 className="header__main__title col-md-10">
             We Are Awesome Creative Agency
           </h1>
           <img src={separator} alt="separator" className="header__main__separator" />
-          <p className="header__main__text">
+          <p className="header__main__text col-md-10">
             This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
             velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
             auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
@@ -63,7 +63,7 @@ const Header = () => {
             Morbi accumsan ipsum velit.
           </p>
           {/* TODO: add routing*/}
-          <button className="main-btn">LEARN MORE</button>
+          <button className="header__main__btn main-btn">LEARN MORE</button>
         </div>
       </div>
     </header>
