@@ -8,7 +8,7 @@ const About = () => {
   const [isPopupActive, setIsPopupActive] = useState(false);
   return (
     <>
-      <section className="about">
+      <section id="about" className="about">
         <div className="container">
           <div className="row about__info">
             <div className="left col-md-4 about__info__left">
@@ -28,7 +28,9 @@ const About = () => {
                 eu in elit. Class aptent taciti sociosqu ad litora torquent per
                 conubia nostra, per inceptos himenaeos.
               </p>
-              <button className="main-btn">LEARN MORE</button>
+              <div>
+              <a href="#expertise" className="main-btn">LEARN MORE</a>
+            </div>
             </div>
           </div>
         </div>

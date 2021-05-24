@@ -7,7 +7,7 @@ const Testimonials = () => {
   const [currentReviewNumber, setCurrentReviewNumber] = useState(2);
   const reviews = reviewers.testimonials;
   return (
-    <section className="testimonials">
+    <section className="testimonials" id="people">
       <div className="container testimonials__container">
         <div>
           <img src={quotes} alt="quotes" className="testimonials__quotes" />

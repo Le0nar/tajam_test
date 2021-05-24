@@ -9,7 +9,7 @@ import piechart from "../../../assets/icons/piechart.png";
 
 const Expertise = () => {
   return (
-    <section className="expertise">
+    <section id="expertise" className="expertise">
       <div className="container">
         <div className="expertise__top">
           <h2 className="expertise__top__title">EXPERTISE</h2>
