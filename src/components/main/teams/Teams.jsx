@@ -5,7 +5,7 @@ import employeeImg from "../../../assets/employees/employee.png";
 
 const Teams = () => {
     return (
-        <section className="teams" id="">
+        <section className="teams" id="teams">
             <div className="container">
                 <div className="teams__top">
                     <h2 className="teams__top__title">MEET OUR AMAZING TEAM</h2>
