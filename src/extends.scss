@@ -1,0 +1,23 @@
+// fonts
+$playfair: 'Playfair Display', serif;
+$roboto: 'Roboto', sans-serif;
+// colors
+$turquoise : #00E0D0;
+$white: #FFFFFF;
+$dark-grey:#413d4b;
+$grey: #2f2d35;
+
+// button 
+.main-btn {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: $playfair;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid $turquoise;
+    color: $turquoise;
+    &:hover {
+        color: $turquoise;
+    }
+}

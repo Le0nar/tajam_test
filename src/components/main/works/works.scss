@@ -1,0 +1,40 @@
+@import "../../../extends.scss";
+
+.works {
+    &__title {
+        display: flex;
+        justify-content: space-between;
+        margin: 71px auto;
+        &__left {
+            font-size: 22px;
+            letter-spacing: 1px;
+            font-weight: 700;
+            color: $dark-grey;
+            font-family: $playfair;
+        }
+        &__right {
+            font-size: 14px;
+            letter-spacing: 1px;
+            font-weight: 300;
+            color: $grey;
+            font-family: $roboto;
+            &:hover {
+                color: $grey;
+            }
+            &__value {
+                padding-right: 10px;
+            }
+        }
+    }
+    &__examples {
+        text-align: center;
+        img {
+            cursor: pointer;
+        }
+    }
+
+    &__btn {
+        margin: 68px 0px;
+        text-align: center;
+    }
+}
