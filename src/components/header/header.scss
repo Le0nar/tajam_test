@@ -1,10 +1,11 @@
+@import "../../extends.scss";
+
 .header {
     background-image: url("../../assets/bg/header-bg.png");
     background-size: cover;
     height: 671px;
-    // temporarly
-    color: #fff;
-
+    color: $white;
+    font-family: $roboto;
     &__container {
         display: flex;
         flex-direction: column;
@@ -19,8 +20,10 @@
         margin-top: 15px;
         &__logo__name {
             padding-left: 11px;
-            font-size:30px
-            // color, font-family
+            font-size:30px;
+            font-weight: 250;
+            font-family: $roboto;          
+            color: $turquoise;
         }
         &__nav {
             display: flex;
@@ -31,10 +34,13 @@
             &__link {
                 white-space: nowrap;
                 font-size:13px;
-                // color, font-family
+                font-family: $roboto;
+                color: $white;
+                &:hover {
+                    color: $turquoise;
+                }
                 &__active {
-                    color: #fff;
-                    // color, font-family
+                    color: $turquoise;
                 }
             }
         }
@@ -54,7 +60,8 @@
             font-weight: 900;
             text-align: center;
             margin: 0 auto;
-            // color, font-family
+            color: $white;
+            font-family: $playfair;
         }
         &__separator {
             position: relative;
@@ -70,7 +77,6 @@
             font-weight: 300;
             text-align: center;
             margin: 0 auto 50px;
-            // color, font-family
         }
         &__btn {
             text-align: center;

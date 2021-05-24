@@ -1,10 +1,12 @@
+@import "../../../extends.scss";
+
 .testimonials {
     background-image: url("../../../assets/bg/testimonials-bg.png");
     background-size: cover;
     min-height: 500px;
     display: flex;
-    // temporarly
-    color: #fff;
+    color: $white;
+    font-family: $roboto;
     &__container {
         display: flex;
         flex-direction: column;
@@ -23,7 +25,6 @@
         font-weight: 400;
         text-align: center;
         padding: 0 16px;
-        // color, ff
     }   
     &__author {
         display: flex;
@@ -34,13 +35,11 @@
             letter-spacing: 1px;
             line-height: 22px;
             font-weight: 900;
-            // color, ff
         }
         &__prof {
             font-size: 13px;
             line-height: 22px;
             font-weight: 300;
-            // color, ff
         }
     }
     &__photos {

@@ -1,4 +1,8 @@
+@import "../../../extends.scss";
+
 .teams {
+  color: $white;
+  font-family: $roboto;
   background-image: url("../../../assets/bg/teams-bg.png");
   background-size: cover;
   min-height: 712px;
@@ -10,7 +14,7 @@
       letter-spacing: 1px;
       font-weight: 700;
       color: #fff;
-      // color, ff
+      font-family: $playfair;
     }
     &__info {
         padding: 16px 0px;
@@ -18,7 +22,6 @@
         letter-spacing: 1px;
         color: #f9f9f9;
         font-weight: 400;
-        // color, ff
     }
   }
 
@@ -42,12 +45,10 @@
           letter-spacing: 1px;
           font-weight: 900;
           padding-bottom: 12px;
-          // color, ff
         }
         &__prof {
           font-size: 13px;
           font-weight: 300;
-          // color, ff
         }
       }
     }
@@ -60,7 +61,6 @@
       letter-spacing: 1px;
       color: #f3f3f3;
       font-weight: 300;
-      // color, ff
     }
     &__btn {
       margin: 25px 0px 70px;
