@@ -1,3 +1,5 @@
+@import "../../../extends.scss";
+
 .works {
     &__title {
         display: flex;
@@ -7,13 +9,18 @@
             font-size: 22px;
             letter-spacing: 1px;
             font-weight: 700;
-            // color, ff
+            color: $dark-grey;
+            font-family: $playfair;
         }
         &__right {
             font-size: 14px;
             letter-spacing: 1px;
             font-weight: 300;
-            // color, ff
+            color: $grey;
+            font-family: $roboto;
+            &:hover {
+                color: $grey;
+            }
             &__value {
                 padding-right: 10px;
             }
