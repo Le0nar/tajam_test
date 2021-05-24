@@ -1,18 +1,19 @@
 import "./header.scss";
 import logo from "../../assets/logo/logo.png";
 import separator from "../../assets/icons/separator.png";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import burger from "../../assets/icons/burger-menu.png";
 
 const Header = () => {
   const [isBurgerMenuActive, setIsBurgerMenuActive] = useState(false);
 
   const closeBurgerMenu = (event) => {
-    if(event.target.className !== "header__navbar__burger") setIsBurgerMenuActive(false)
+    if (event.target.className !== "header__navbar__burger")
+      setIsBurgerMenuActive(false);
   };
 
   const burgerMenu = (
-    <ul className="burger-menu">
+    <ul className="burger-menu" onClick={closeBurgerMenu}>
       <li>
         <a className="burger-menu__link burger-menu__link__active" href="#home">
           HOME
@@ -53,7 +54,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="header" onClick={closeBurgerMenu}>
+      <header id="home" className="header" onClick={closeBurgerMenu}>
         <div className="header__container container">
           <div className="header__navbar">
             <a href="#home" className="header__navbar__logo">
@@ -125,7 +126,9 @@ const Header = () => {
               Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
               Morbi accumsan ipsum velit.
             </p>
-            <button className="header__main__btn main-btn">LEARN MORE</button>
+            <div className="header__main__btn">
+              <a href="#expertise" className="main-btn">LEARN MORE</a>
+            </div>
           </div>
         </div>
       </header>

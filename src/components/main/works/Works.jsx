@@ -7,7 +7,7 @@ import workExample4 from "../../../assets/works/example4.png"
 
 const Works = () => {
   return (
-    <section className="works">
+    <section className="works" id="works">
       <div className="works__title container">
         <h2 className="works__title__left">OUR WORKS</h2>
         <a href="#home" className="works__title__right">
@@ -29,7 +29,8 @@ const Works = () => {
             <img src={workExample2} alt="workExample1" className="col-md-2"/>
             <img src={workExample3} alt="workExample2" className="col-md-2"/>
       </div>
-      <button className="main-btn works__btn">LOAD MORE</button>
+      <div className="works__btn"><a href="#home" className="main-btn">LOAD MORE</a></div>
+      
     </section>
   );
 };

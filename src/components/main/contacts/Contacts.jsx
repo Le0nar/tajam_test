@@ -2,7 +2,7 @@ import "./contacts.scss";
 
 const Contacts = () => {
   return (
-    <section className="contacts">
+    <section className="contacts" id="contacts">
       <div className="container">
         <h2 className="contacts__title">GIVE US A GOOD NEWS</h2>
         <form className="contacts__form">
